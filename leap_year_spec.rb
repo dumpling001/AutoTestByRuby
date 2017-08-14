@@ -1,10 +1,10 @@
 require_relative './leap_year'
 
-describle "Leap Year" do
+describe "Leap Year" do
   it "2016 is leap year" do
     result = is_leap_year?(2016) #send parameter "2016"
 
-    expect(result).tu eq(true) # check result should be "true"
+    expect(result).to eq(true) # check result should be "true"
 
   end
 
